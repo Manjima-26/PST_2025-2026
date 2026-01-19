@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sumof1to100"/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-18 06:52:01 PM"/>
+        <attribute name="created" value="RUxDT1Q7Sk9USElLQTsyMDI2LTAxLTE4OzA2OjQyOjE3IFBNOzIxODE="/>
+        <attribute name="edited" value="RUxDT1Q7Sk9USElLQTsyMDI2LTAxLTE4OzA2OjUyOjAxIFBNOzE7MjI4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <assign variable="sum" expression="0"/>
+            <while expression="i&lt;=100">
+                <if expression="i%2==0">
+                    <then>
+                        <assign variable="sum" expression="sum+i"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

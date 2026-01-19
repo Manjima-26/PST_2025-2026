@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="arithmetic"/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-18 08:30:47 PM"/>
+        <attribute name="created" value="RUxDT1Q7Sk9USElLQTsyMDI2LTAxLTE4OzA2OjU4OjU2IFBNOzIxOTE="/>
+        <attribute name="edited" value="RUxDT1Q7Sk9USElLQTsyMDI2LTAxLTE4OzA4OjMwOjQ3IFBNOzI7MjI5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="add" type="Real" array="False" size=""/>
+            <declare name="sub" type="Real" array="False" size=""/>
+            <declare name="mul" type="Real" array="False" size=""/>
+            <declare name="div" type="Real" array="False" size=""/>
+            <declare name="modu" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="add" expression="a+b"/>
+            <assign variable="sub" expression="a-b"/>
+            <assign variable="mul" expression="a*b"/>
+            <assign variable="div" expression="a/b"/>
+            <assign variable="modu" expression="a%b"/>
+            <output expression="add" newline="True"/>
+            <output expression="sub" newline="True"/>
+            <output expression="mul" newline="True"/>
+            <output expression="div" newline="True"/>
+            <output expression="modu" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
