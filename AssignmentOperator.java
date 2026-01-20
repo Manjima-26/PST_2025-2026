@@ -1,9 +1,8 @@
-import java.util.Scanner;
 class AssignmentOperator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int a =scan.nextInt();
-		int b =scan.nextInt();
+        int a =10;
+		int b =20;
         a += b;   
         System.out.println("a += b : " + a);
 
@@ -20,3 +19,4 @@ class AssignmentOperator {
         System.out.println("a %= b : " + a);
     }
 }
+
