@@ -5,6 +5,7 @@ public class vowelscount {
         Scanner scan = new Scanner(System.in);
 
         String vowels = "aeiou";
+        System.out.println("Enter the word:"): 
         String word = scan.nextLine().toLowerCase();
         int vowelsCount = 0;
 
@@ -19,3 +20,4 @@ public class vowelscount {
         System.out.println("Number of vowels: " + vowelsCount);
     }
 }
+
