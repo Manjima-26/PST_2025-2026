@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="celsiustofahrenheit"/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-18 06:21:59 PM"/>
+        <attribute name="created" value="RUxDT1Q7Sk9USElLQTsyMDI2LTAxLTE4OzA2OjE3OjQ1IFBNOzIxODQ="/>
+        <attribute name="edited" value="RUxDT1Q7Sk9USElLQTsyMDI2LTAxLTE4OzA2OjIxOjU5IFBNOzE7MjI5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="f" type="Real" array="False" size=""/>
+            <input variable="c"/>
+            <assign variable="f" expression="(c*9/5)+32"/>
+            <output expression="f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
